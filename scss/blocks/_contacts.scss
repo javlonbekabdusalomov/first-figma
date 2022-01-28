@@ -1,0 +1,54 @@
+// contacts
+
+.cantacts-line{
+    background-color: #fff;
+    
+    
+}
+.contacts{
+    padding: 20px 0px;
+}
+.contact-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.contact-subtitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.contact-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+.contact-btn{
+    padding: 15px 30px;
+    background-color: #FF7B47;
+    border: 1px solid #FF7B47;
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+    &:hover{
+        transform: scale(1.1);
+        background-color: transparent;
+        color: #FF7B47;
+    }
+    
+}

@@ -1,0 +1,105 @@
+// touch-section
+.touch-servises{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.touch-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0;
+    margin-top: 40px;
+}
+.touch-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.touch-servis-box~.touch-servis-box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.touch-servis-box{
+    width: 328px;
+    height: 333px;
+    background-color: #fff;
+    padding: 50px 0px;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+    &:hover{
+        background-color: #252B42;;
+        transform: scale(1.1);
+
+        .touch-servis-img, .touch-servis-link, .touch-servis-name{
+            color: white;
+            border-color: white;
+            
+        }
+        .touch-servis-btn{
+            background-color: #FF7B47;
+            color: white;
+        }
+    }
+}
+.touch-servis-img{
+    font-size: 50px;
+    color: $sayt-color;
+    margin-bottom: 15px;
+}
+.touch-servis-link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-decoration: none;
+
+}
+.touch-servis-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 15px;
+}
+.touch-servis-btn{
+    color:#FF7B47;
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    transition: all .5s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
